@@ -1,0 +1,22 @@
+{
+  "name": "newcleanfolder",
+  "version": "1.0.0",
+  "description": "A function to delete or clean a folder.",
+  "main": "./src/app.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisTovar0/newcleanfolder.git"
+  },
+  "keywords": ["delete-folder", "clean-folder", "del"],
+  "author": "Luís Tovar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisTovar0/newcleanfolder/issues"
+  },
+  "homepage": "https://github.com/LuisTovar0/newcleanfolder#readme",
+  "dependencies": {
+    "del": "^6.0.0",
+    "ts-node": "^10.7.0"
+  }
+}
