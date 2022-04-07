@@ -1,6 +1,6 @@
 {
   "name": "newcleanfolder",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "A function to delete or clean a folder.",
   "main": "newcleanfolder.js",
   "scripts": {},
