@@ -1,7 +1,7 @@
-import del from 'del';
-import fs from 'fs';
+const del = require('del');
+const fs = require('fs');
 
-export default async (folderName) => {
+module.exports.newCleanFolder = async (folderName, silent) => {
   await del(folderName);
   fs.access(folderName, (error) => {
     if (error) fs.mkdir(folderName, (error) => {
