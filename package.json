@@ -1,6 +1,6 @@
 {
   "name": "newcleanfolder",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A function to delete or clean a folder.",
   "main": "newcleanfolder.js",
   "scripts": {},
@@ -21,5 +21,6 @@
   "homepage": "https://github.com/LuisTovar0/newcleanfolder#readme",
   "dependencies": {
     "del": "^6.0.0"
-  }
+  },
+  "type": "module"
 }
