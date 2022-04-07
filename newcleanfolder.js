@@ -1,5 +1,5 @@
-import del from 'del';
-import fs from "fs";
+const del = require('del');
+const fs = require('fs');
 
 export default async function newCleanFolder(folderName) {
   await del(folderName);
