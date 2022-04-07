@@ -2,7 +2,7 @@
   "name": "newcleanfolder",
   "version": "2.0.0",
   "description": "A function to delete or clean a folder.",
-  "main": "app.js",
+  "main": "newcleanfolder.js",
   "scripts": {},
   "repository": {
     "type": "git",
